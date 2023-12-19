@@ -7,7 +7,7 @@ This code demonstrates:
 )
 
 ## Note:
-* If you want to use i2c0,1,3, and the driver doesn't load, it is a good idea to check the various I2C nodes in the compiled dts (build/zephyr.dts). They will either be marked as "okay" or "disabled".
+* If you want to use i2c0,1,3, and the driver doesn't load, it is a good idea to check the various I2C nodes in the compiled dts (build/zephyr/zephyr.dts). They will either be marked as "okay" or "disabled".
 * The code is tested on nRF9160DK using nRF Connect SDK v.2.5.0 (SCL: 31, SDA:30).
 * The example code is using i2c2, since this is enabled by default.
 * [Chipcap2 application guide](https://www.cdiweb.com/datasheets/telaire-amphenol/chipcap2applicationnote.pdf)
